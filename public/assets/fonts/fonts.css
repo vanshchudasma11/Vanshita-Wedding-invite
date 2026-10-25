@@ -1,0 +1,60 @@
+/* Self-hosted faces — nothing here is loaded from a third-party host.
+   The original page pulled four families off Google Fonts and preloaded a
+   fifth; all five now sit next to this file. Only the latin subset of each is
+   included, because that is the only one the page draws from. */
+
+/* Mussica Swash — the swash script used for the couple's names, in the hero
+   and again on the invitation card. The original self-hosted this one too. */
+@font-face {
+  font-family: "Mussica Swash";
+  src: url("mussica-swash-400.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* Cinzel — every heading, label and small-caps line. One variable file covers
+   400 through 700. */
+@font-face {
+  font-family: "Cinzel";
+  src: url("cinzel-400-700var-latin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Cormorant Garamond — body copy. One variable file covers 300 through 700. */
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("cormorant-garamond-300-700var-latin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Great Vibes — the large flowing section titles ("Our Story", "Wedding
+   Events", each event name). */
+@font-face {
+  font-family: "Great Vibes";
+  src: url("great-vibes-400-latin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Parisienne — used once, for "Thank You" in the footer. */
+@font-face {
+  font-family: "Parisienne";
+  src: url("parisienne-400-latin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* The Gurmukhi lines on the invitation (ੴ and the shabad) are set in whatever
+   Gurmukhi face the guest's device carries — shipping a whole extra script for
+   two lines is not worth the weight, and every modern phone has one. */
