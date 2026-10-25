@@ -31,4 +31,6 @@ demo_files/
 template-3.html
 shubh_assets/
 video_frames/
-*.mp4
+/WhatsApp Video*.mp4
+!public/assets/media/hero.mp4
+
